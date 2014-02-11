@@ -1,8 +1,12 @@
+Encoding: UTF-8
 Package: methodsTest
-Title: 
-Description: 
+Title: methodsTest
+Description: Package for testing dependency on methods when package is loaded
+    but not attached
 Version: 0.1
-Authors@R: # getOptions('devtools.desc.author')
-Depends: R (>= 3.0.2)
-License: # getOptions('devtools.desc.license')
+Author: Kirill Müller <mail@kirill-mueller.de>
+Maintainer: Kirill Müller <mail@kirill-mueller.de>
+Depends:
+    R (>= 3.0.2)
+License: GPL-3
 LazyData: true
