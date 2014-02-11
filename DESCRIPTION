@@ -7,6 +7,7 @@ Version: 0.1
 Author: Kirill Müller <mail@kirill-mueller.de>
 Maintainer: Kirill Müller <mail@kirill-mueller.de>
 Depends:
-    R (>= 3.0.2)
+    R (>= 3.0.2),
+    methods
 License: GPL-3
 LazyData: true
