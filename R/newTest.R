@@ -9,4 +9,4 @@ newTest <- function() {
   cl$new
 }
 
-someClass <- setRefClass("someClass")
+someClass <- methods::setRefClass("someClass")
