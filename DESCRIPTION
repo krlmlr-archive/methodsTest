@@ -8,5 +8,7 @@ Author: Kirill Müller <mail@kirill-mueller.de>
 Maintainer: Kirill Müller <mail@kirill-mueller.de>
 Depends:
     R (>= 3.0.2)
+Imports:
+    methods
 License: GPL-3
 LazyData: true
