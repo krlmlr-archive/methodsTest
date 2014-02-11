@@ -5,6 +5,7 @@
 #' @export
 newTest <- function() {
   cl <- get("someClass")
+  require(methods)
   cl$new
 }
 
