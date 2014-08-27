@@ -2,6 +2,6 @@
 
 set -x
 
-Rscript -e "methodsTest::newTest()"
-Rscript -e "library(methodsTest); newTest()"
+Rscript --vanilla -e "methodsTest::newTest()"
+Rscript --vanilla -e "library(methodsTest); newTest()"
 
